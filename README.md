@@ -1,23 +1,85 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+#Quote Application
 
-# InspoQuotes
+This repository contains the source code for the InspoQuotes application, a freemium app designed to provide users with inspirational quotes. The app offers both free and premium quotes, with in-app purchases available for unlocking additional premium content.
 
+## Table of Contents
 
-## What you will create
-
-InspoQuotes is a freemium app that gives some free inspiration and a lot of paid inspiration.  
-
-## What you will learn
-
-* How to setup new in-app purchases on App Store Connect
-* How to use the StoreKit API to allow users to purchase premium content
-* How to use the StoreKit API to detect failure cases
-* How to use the StoreKit API to restore in-app purchases
-* How to persist the state of users' purchases
+- [Introduction](#Introduction)
+- [Features](#Features)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Dependencies](#Dependencies)
+- [Contributing](#Contributing)
 
 
+## Introduction
 
->This is a companion project to The App Brewery's Complete App Developement Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+InspoQuotes is a mobile application that delivers a daily dose of inspiration through a collection of motivational quotes. Users can enjoy a variety of free quotes and have the option to purchase premium quotes through in-app purchases.
 
-![End Banner](Documentation/readme-end-banner.png)
+## Features
+
+- Daily Inspirational Quotes: Access a curated collection of motivational quotes.
+- Freemium Model: Enjoy free quotes and unlock premium content with in-app purchases.
+- Uses StoreKit Api for in-app purchases, restore purchase and detect failure in purchases.
+
+## Installation
+
+To set up the project on your local machine, follow these steps:
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/adnanAlKharfan/Quote-Application.git
+```
+
+2. Navigate to the project directory:
+
+```sh
+cd Quote-Application
+```
+
+3. Open the project in Xcode:
+
+```sh
+open InspoQuotes.xcodeproj
+```
+
+4. Install dependencies using CocoaPods:
+
+```sh
+pod install
+```
+
+## Usage
+
+1. Launch the app in Xcode:
+
+    - Select the target device (e.g., iPhone simulator or connected device).
+    - Click on the run button or press Cmd + R to build and run the app.
+
+2. View Quotes:
+
+    - Browse through the list of free quotes available in the app.
+
+3. Purchase Premium Quotes:
+
+    - Unlock additional quotes by making in-app purchases.
+
+4. Restore Purchases:
+
+    - Restore previously made purchases if the app is reinstalled.
+
+
+## Dependencies
+
+The project relies on the following dependencies:
+
+  - StoreKit: A framework to handle in-app purchases and manage transactions.
+
+These dependencies are managed using CocoaPods.
+
+## Contributing
+
+Contributions are welcome! Please fork this repository and submit a pull request.
+
 
